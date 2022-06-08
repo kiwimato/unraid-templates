@@ -19,6 +19,7 @@
   <Config Name="APP_ENV" Target="APP_ENV" Default="production" Description="Container Variable: APP_ENV" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Debug Mode" Target="APP_DEBUG" Default="0" Description="Container Variable: APP_DEBUG" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Database Host" Target="DB_HOST" Default="unraidIP" Description="Container Variable: DB_HOST" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Database port" Target="DB_PORT" Default="3306" Description="Container Variable: DB_PORT" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Database Name" Target="DB_DATABASE" Default="ninjav5" Description="Container Variable: DB_DATABASE" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Database username" Target="DB_USERNAME" Default="ninjav5" Description="Container Variable: DB_USERNAME" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Database Password" Target="DB_PASSWORD" Default="ninja" Description="Container Variable: DB_PASSWORD" Type="Variable" Display="always" Required="true" Mask="true"/>
