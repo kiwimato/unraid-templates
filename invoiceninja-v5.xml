@@ -13,7 +13,7 @@
     When migrating for v4 to v5 please follow this tutorial: https://github.com/kiwimato/invoiceninja_v5#upgrade-from-v4-to-v5
   </Overview>
   <Category>Productivity: Tools:</Category>
-  <WebUI>https://[IP]:[PORT:8443]/</WebUI>
+  <WebUI>https://[IP]:[PORT:443]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/kiwimato/invoiceninja_v5/master/invoiceninjav5.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/selfhosters/unRAID-CA-templates/master/templates/img/invoiceninja.png</Icon>
   <Config Name="APP_ENV" Target="APP_ENV" Default="production" Description="Container Variable: APP_ENV" Type="Variable" Display="advanced" Required="false" Mask="false"/>
