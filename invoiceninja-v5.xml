@@ -37,6 +37,7 @@
   <Config Name="MAIL_FROM_ADDRESS" Target="MAIL_FROM_ADDRESS" Default="null" Description="Container Variable: MAIL_FROM_ADDRESS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="MAIL_FROM_NAME" Target="MAIL_FROM_NAME" Default="Invoice Department" Description="Container Variable: MAIL_FROM_NAME" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="MAIL_PASSWORD" Target="MAIL_PASSWORD" Default="SUPERSECRETEMAILPASSWORD" Description="Container Variable: MAIL_PASSWORD" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="MEMORY_LIMIT" Target="MEMORY_LIMIT" Default="256M" Description="Container Variable: MEMORY_LIMIT" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="HTTP Port" Target="80" Default="8000" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false"/>
   <Config Name="HTTPS Port" Target="443" Default="8443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="false" Mask="false"/>
   <Config Name="Require HTTPS" Target="REQUIRE_HTTPS" Default="false" Description="Whether to force redirect http to https" Type="Variable" Display="always" Required="false" Mask="false"/>
