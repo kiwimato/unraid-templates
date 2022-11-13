@@ -20,7 +20,8 @@
   <DateInstalled>1548204064</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>Docker wrapper for a Python script to query NUT - Network UPS Tools via a Python script and then send the results to InfluxDB for storage.</Description>
+  <Description>WARNING: Deprecated in favor of Telegraf which now supports NUT or https://github.com/jwillmer/nut-influxdbv2
+    Docker wrapper for a Python script to query NUT - Network UPS Tools via a Python script and then send the results to InfluxDB for storage.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
